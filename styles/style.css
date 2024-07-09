@@ -1,0 +1,125 @@
+*{
+    font-family: Azeret Mono;
+}
+header{
+    margin-top: 100px;
+    height: 500px;
+    background-image:url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+.btn-prime{
+    padding: 18px 35px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+}
+header p{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+header h1{
+    font-weight: 600;
+}
+main{
+    margin: 200px 50px 0px 50px;
+    /* margin: 5px 50px; */
+}
+.first{
+    text-align: center;
+}
+.para{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+}
+.layer-1{
+   margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+    gap: 70px;
+    background-color: white;
+}
+.text{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+/* border: 5px solid white;
+margin: 50px; */
+}
+.learn{
+padding: 15px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+}
+.full{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    /* margin: 5px 50px;     */
+}
+.fixed-font{
+    font-size: 32px;
+}
+.title{
+    font-size: 25px;
+    color:rgba(13, 19, 33, 0.7)
+}
+.inspi{
+    text-align: center;
+    font-size: 32px;
+}
+.inspi-descript{
+    text-align: center;
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+}
+.video{
+    text-align: center;
+    width: 1500px;
+    height: 700px;
+   padding: 32px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+display: block;
+margin: 50px auto auto auto;
+}
+iframe{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin: 10px 0px;
+}
