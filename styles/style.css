@@ -188,3 +188,57 @@ background:rgba(255, 223, 0, 0.05)
 .box-text{
     text-align: left;
 }
+.container{
+    position: absolute;
+    margin-left: 180px;
+    justify-content: center;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/handshake.jpg');
+    background-size:cover;
+    width: 1500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.centered{
+    display: block;
+    padding: 64px 48px 64px 48px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+}
+.text-contain{
+display: flex;
+margin-left: 400px;
+}
+textarea{
+    color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+border-radius: 16px;
+padding: 21px 20px 8px 20px;
+}
+.submit{
+    margin-left: 20px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(15, 14, 14);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+    margin-left:200px ;
+    margin-right: 200px;
+    position: relative;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+    background-color: rgba(0, 76, 255, 0.03);
+    color: rgb(16, 15, 15);
+    /* text-align: center; */
+}
