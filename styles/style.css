@@ -190,11 +190,11 @@ background:rgba(255, 223, 0, 0.05)
 }
 .container{
     position: absolute;
-    margin-left: 300px;
+    margin-left: 50px;
     justify-content: center;
     background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/handshake.jpg');
     background-size:cover;
-    width: 1500px;
+    width: 1400px;
     height: 400px;
     background-repeat: no-repeat;
     border-radius: 16px;
